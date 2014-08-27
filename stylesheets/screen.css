@@ -83,7 +83,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: inherit;
   height: 0px;
   width: 0px;
-  box-shadow: 0 0 2px 2px #EDDE45;
+  box-shadow: 0 0 2px 2px #B8DC3C;
   transform: translate(-50%, -50%);
   animation: inner 2s infinite ease-out;
   -webkit-animation: inner 2s infinite ease-out;
@@ -93,8 +93,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 7px;
   width: 7px;
   box-shadow: 0 0 4px 2px #EA3556;
-  animation: outer 3s infinite ease-out;
-  -webkit-animation: outer 3s infinite ease-out;
+  animation: outer 2s infinite ease-out;
+  -webkit-animation: outer 2s infinite ease-out;
 }
 
 @-webkit-keyframes inner {
