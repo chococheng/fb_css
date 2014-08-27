@@ -70,14 +70,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 8, ../sass/screen.scss */
 .dot {
   position: absolute;
-  background: #00C0FF;
-  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
+  background: #87F6FD;
+  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.7);
   height: 0;
   width: 0;
-  padding: 4px;
   border-radius: 5000px;
 }
-/* line 19, ../sass/screen.scss */
+/* line 18, ../sass/screen.scss */
 .dot:before, .dot:after {
   position: absolute;
   content: " ";
@@ -89,7 +88,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   animation: pulseInner 2s infinite ease-out;
   -webkit-animation: pulseInner 2s infinite ease-out;
 }
-/* line 32, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .dot:after {
   height: 7px;
   width: 7px;
@@ -99,45 +98,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @-webkit-keyframes pulseInner {
-  /* line 43, ../sass/screen.scss */
+  /* line 42, ../sass/screen.scss */
   0% {
     height: 0;
     width: 0;
     opacity: 0;
   }
 
-  /* line 48, ../sass/screen.scss */
+  /* line 47, ../sass/screen.scss */
   20% {
     opacity: 1;
   }
 
-  /* line 51, ../sass/screen.scss */
+  /* line 50, ../sass/screen.scss */
   95% {
     height: 125px;
     width: 125px;
     opacity: 0.25;
   }
 
-  /* line 56, ../sass/screen.scss */
+  /* line 55, ../sass/screen.scss */
   100% {
     opacity: 0;
   }
 }
 
 @-webkit-keyframes pulseOuter {
-  /* line 61, ../sass/screen.scss */
+  /* line 60, ../sass/screen.scss */
   0% {
     height: 7px;
     width: 7px;
     opacity: 0;
   }
 
-  /* line 66, ../sass/screen.scss */
+  /* line 65, ../sass/screen.scss */
   20% {
     opacity: 1;
   }
 
-  /* line 69, ../sass/screen.scss */
+  /* line 68, ../sass/screen.scss */
   100% {
     height: 250px;
     width: 250px;
