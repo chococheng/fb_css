@@ -83,7 +83,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: inherit;
   height: 0px;
   width: 0px;
-  box-shadow: 0 0 2px 2px #FF0000;
+  box-shadow: 0 0 2px 2px #EA3556;
   transform: translate(-50%, -50%);
   animation: pulseInner 2s infinite ease-out;
   -webkit-animation: pulseInner 2s infinite ease-out;
@@ -92,9 +92,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .dot:after {
   height: 7px;
   width: 7px;
-  box-shadow: 0 0 4px 2px #FFFF00;
-  animation: pulseOuter 2s infinite ease-out;
-  -webkit-animation: pulseOuter 2s infinite ease-out;
+  box-shadow: 0 0 4px 2px #EDE5E2;
+  animation: pulseOuter 3s infinite ease-out;
+  -webkit-animation: pulseOuter 3s infinite ease-out;
 }
 
 @-webkit-keyframes pulseInner {
