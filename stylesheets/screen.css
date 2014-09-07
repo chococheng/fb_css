@@ -167,3 +167,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-left: none;
   border-radius: 0 0 10px 0;
 }
+/* line 94, ../sass/screen.scss */
+.block p {
+  padding-left: 15px;
+}
