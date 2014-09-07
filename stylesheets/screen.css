@@ -156,7 +156,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 0 10px 10px 0;
 }
 /* line 82, ../sass/screen.scss */
-.block div {
+.block form {
   padding: 5px;
   line-height: 30px;
   float: left;
