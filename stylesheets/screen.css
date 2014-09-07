@@ -147,7 +147,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 73, ../sass/screen.scss */
 .block {
   position: fixed;
-  top: 15%;
+  top: 300px;
   background: #69FF69;
   width: 60px;
   color: #fff;
