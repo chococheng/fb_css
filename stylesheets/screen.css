@@ -171,3 +171,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 .block p {
   padding-left: 15px;
 }
+
+/* line 99, ../sass/screen.scss */
+.show, .hide {
+  cursor: pointer;
+}
