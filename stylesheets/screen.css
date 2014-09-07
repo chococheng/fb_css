@@ -155,3 +155,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-left: none;
   border-radius: 0 10px 10px 0;
 }
+/* line 82, ../sass/screen.scss */
+.block div {
+  padding: 5px;
+  line-height: 30px;
+  float: left;
+  background: #FF5411;
+  width: 30%;
+  margin-top: 0px;
+  border: 2px solid #fff;
+  border-left: none;
+  border-radius: 0 0 10px 0;
+}
