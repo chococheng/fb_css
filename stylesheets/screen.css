@@ -1,178 +1,72 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
+/*
+Syntax error: Invalid CSS after "  opacity": expected "{", was "(0.7);"
+        on line 82 of /Users/lisacheng/Documents/toys/circle/sass/screen.scss
 
-/* line 22, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
-/* line 8, ../sass/screen.scss */
-.dot {
-  position: absolute;
-  background: #4C49A2;
-  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.7);
-  height: 0;
-  width: 0;
-  border-radius: 5000px;
-}
-/* line 17, ../sass/screen.scss */
-.dot:before, .dot:after {
-  position: absolute;
-  content: " ";
-  border-radius: inherit;
-  height: 0px;
-  width: 0px;
-  box-shadow: 0 0 2px 2px #FFFF00;
-  transform: translate(-50%, -50%);
-  animation: inner 2s infinite ease-out;
-  -webkit-animation: inner 2s infinite ease-out;
-}
-/* line 30, ../sass/screen.scss */
-.dot:after {
-  height: 7px;
-  width: 7px;
-  box-shadow: 0 0 4px 2px #FF0000;
-  animation: outer 2s infinite ease-out;
-  -webkit-animation: outer 2s infinite ease-out;
-}
-
-@-webkit-keyframes inner {
-  /* line 41, ../sass/screen.scss */
-  0% {
-    height: 0;
-    width: 0;
-    opacity: 0;
-  }
-
-  /* line 46, ../sass/screen.scss */
-  20% {
-    opacity: 1;
-  }
-
-  /* line 49, ../sass/screen.scss */
-  95% {
-    height: 125px;
-    width: 125px;
-    opacity: 0.25;
-  }
-
-  /* line 54, ../sass/screen.scss */
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes outer {
-  /* line 59, ../sass/screen.scss */
-  0% {
-    height: 7px;
-    width: 7px;
-    opacity: 0;
-  }
-
-  /* line 64, ../sass/screen.scss */
-  20% {
-    opacity: 1;
-  }
-
-  /* line 67, ../sass/screen.scss */
-  100% {
-    height: 250px;
-    width: 250px;
-    opacity: 0.25;
-  }
-}
-
-/* line 73, ../sass/screen.scss */
-.block {
-  position: fixed;
-  top: 300px;
-  background: #FF0040;
-  width: 60px;
-  color: #fff;
-  border: 2px solid #fff;
-  border-left: none;
-  border-radius: 0 10px 10px 0;
-}
-/* line 82, ../sass/screen.scss */
-.block form {
-  padding: 5px;
-  line-height: 30px;
-  float: left;
-  background: #FA5882;
-  width: 220px;
-  margin-top: 0px;
-  border: 2px solid #fff;
-  border-left: none;
-  border-radius: 0 0 10px 0;
-}
-/* line 94, ../sass/screen.scss */
-.block p {
-  padding: 5px;
-}
-
-/* line 99, ../sass/screen.scss */
-.show, .hide {
-  cursor: pointer;
-}
+Backtrace:
+/Users/lisacheng/Documents/toys/circle/sass/screen.scss:82
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1147:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1085:in `expected'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1080:in `tok!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:534:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:529:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:591:in `block in declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1123:in `call'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:1123:in `rethrow'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:592:in `declaration_or_ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:554:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:535:in `block'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:529:in `ruleset'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:553:in `block_child'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:546:in `block_contents'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:82:in `stylesheet'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/scss/parser.rb:27:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:342:in `_to_tree'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:30:in `block in temporary_multipath_handler'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `each'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:27:in `temporary_multipath_handler'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:17:in `block (2 levels) in run'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `each'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:16:in `block in run'
+/Library/Ruby/Gems/2.0.0/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `call'
+/Library/Ruby/Gems/2.0.0/gems/rb-fsevent-0.9.4/lib/rb-fsevent/fsevent.rb:45:in `run'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/backends/rbfsevent.rb:20:in `run'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
+/Library/Ruby/Gems/2.0.0/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `call'
+/Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
+/usr/bin/compass:23:in `load'
+/usr/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"  opacity\": expected \"{\", was \"(0.7);\"\A         on line 82 of /Users/lisacheng/Documents/toys/circle/sass/screen.scss"; }

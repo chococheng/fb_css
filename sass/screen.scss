@@ -74,21 +74,22 @@
   position: fixed;
   top:300px;
   background:#FF0040;
-  width:60px;
-  color:#fff;
-  border:2px solid #fff;
+  width: 60px;
+  color: #fff;
+  border: 2px solid #fff;
   border-left:none;
   border-radius:0 10px 10px 0;
+  opacity(0.7);
   form {
     padding: 5px;
-    line-height:30px;
-    float:left;
+    line-height: 30px;
+    float: left;
     background: #FA5882;
-    width:220px;
-    margin-top:0px;
-    border:2px solid #fff;
-    border-left:none;
-    border-radius:0 0 10px 0;
+    margin-top: 0px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-radius: 0 0 10px 0;
+    opacity(0.7);
 
   }
   p {
@@ -97,5 +98,5 @@
 
 }
 .show, .hide {
-  cursor:pointer;
+  cursor: pointer;
 }
