@@ -163,16 +163,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background: #FF0040;
   width: 200px;
   margin-top: 0px;
-  border: 2px solid #fff;
   border-left: none;
   border-radius: 0 0 10px 0;
 }
-/* line 94, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .block p {
   padding: 5px;
 }
 
-/* line 99, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .show, .hide {
   cursor: pointer;
 }
