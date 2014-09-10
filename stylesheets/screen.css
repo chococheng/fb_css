@@ -155,23 +155,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-left: none;
   border-radius: 0 10px 10px 0;
 }
-/* line 83, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .block form {
   padding: 5px;
   line-height: 30px;
   float: left;
   background: #FA5882;
+  width: 220px;
   margin-top: 0px;
   border: 2px solid #fff;
   border-left: none;
   border-radius: 0 0 10px 0;
 }
-/* line 95, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .block p {
   padding: 5px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .show, .hide {
   cursor: pointer;
 }
