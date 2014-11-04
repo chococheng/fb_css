@@ -86,15 +86,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   box-shadow: 0 0 2px 2px #FFFF00;
   transform: translate(-50%, -50%);
   animation: inner 5s infinite ease-out;
-  -webkit-animation: inner 2s infinite ease-out;
+  -webkit-animation: inner 5s infinite ease-out;
 }
 /* line 30, ../sass/screen.scss */
 .dot:after {
   height: 7px;
   width: 7px;
   box-shadow: 0 0 4px 2px #FF0000;
-  animation: outer 2s infinite ease-out;
-  -webkit-animation: outer 2s infinite ease-out;
+  animation: outer 5s infinite ease-out;
+  -webkit-animation: outer 5s infinite ease-out;
 }
 
 @-webkit-keyframes inner {
